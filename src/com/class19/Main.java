@@ -2,6 +2,9 @@ package com.class19;
 
 
 class Main {
+	public Main() {
+		
+	}
 	public static String mixString(String s1, String s2)
 	{
 		String result="";
