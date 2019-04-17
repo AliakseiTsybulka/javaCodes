@@ -16,9 +16,7 @@ public class Child1 extends Parent{
 		Parent parentObject=new Parent();
 		//parentObject.hairType --> not accessible in Parent Class
 		//parentObject.playTennis()--> not accessible in Parent Class
-		
 	}
-	
 	public void playTennis() {
 		System.out.println("Child 1 can play tennis");
 	}
