@@ -1,9 +1,9 @@
 package com.class22;
 
 	public class ConstructorTypes {
-	//  ConstructorTypes(){
-//	      System.out.println("I am a constructor with no parameters");
-	//  }
+	 ConstructorTypes(){
+    System.out.println("I am a constructor with no parameters");
+	  }
 	    
 	    ConstructorTypes(String str){//str - is a local variable to a constructor
 	        System.out.println("I am a constructor with 1 parameter "+str);
