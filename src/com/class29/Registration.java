@@ -27,7 +27,7 @@ public String getPassword() {
 }
 
 public void setPassword(String password) {
-	if(!password.isEmpty() && password.length()>6 && !password.equals(userName)) {
+	if(!password.isEmpty() && password.length()>6 && !password.contains(userName)) {
 	this.password = password;
 	}
 }

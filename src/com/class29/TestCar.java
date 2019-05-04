@@ -11,5 +11,4 @@ public class TestCar {
 				car.regularPrice = 20000;
 				car.calculateSalePrice();
 	}
-
 }

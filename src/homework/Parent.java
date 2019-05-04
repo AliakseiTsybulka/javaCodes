@@ -5,3 +5,4 @@ class Parent {
 		System.out.println("Parent Constructor in parent class with one argument");
 	}
 }
+	
